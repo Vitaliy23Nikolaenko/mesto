@@ -1,0 +1,12 @@
+.profile__info {
+  display: flex;
+  gap: 7px;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  .profile__info {
+    width: 100%;
+  }
+}

@@ -1,0 +1,16 @@
+.place__button {
+  width: 22px;
+  height: 19px;
+  border: none;
+  background: none;
+  line-height: 0;
+  padding: 0;
+  align-self: center;
+  margin: 5px 5px 5px 0;
+  background-image: url(../../../image/place-like.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
