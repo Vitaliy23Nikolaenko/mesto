@@ -8,11 +8,11 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  z-index: 2;
+  margin: auto;
   box-sizing: border-box;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width: 600px) {
   .popup__container {
     width: 282px;
     height: 322px;

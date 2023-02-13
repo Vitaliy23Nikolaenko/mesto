@@ -3,12 +3,14 @@
   height: 50px;
   background-color: #000;
   color: #fff;
-  margin-top: 48px;
+  margin-top: 18px;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   box-sizing: border-box;
+  border: none;
+  border-radius: 2px;
   padding: 0;
 }
 
@@ -17,9 +19,10 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .popup__submit-button {
-    margin-top: 45px;
+    height: 46px;
+    margin-top: 15px;
     font-size: 14px;
     line-height: 17px;
   }

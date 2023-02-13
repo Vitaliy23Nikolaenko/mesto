@@ -20,8 +20,9 @@
 
 @media screen and (max-width: 600px) {
   .profile__description {
+    width: 100%;
+    text-align: center;
     font-size: 14px;
     line-height: 17px;
-    text-align: center;
   }
 }
