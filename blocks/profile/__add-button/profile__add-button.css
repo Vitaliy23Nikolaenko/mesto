@@ -3,9 +3,9 @@
   height: 50px;
   border: 2px solid #fff;
   background: none;
+  padding: 0;
   margin: 0 0 0 auto;
   box-sizing: border-box;
-  padding: 12px 62px;
   border-radius: 2px;
 }
 
@@ -14,18 +14,20 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .profile__add-button {
     width: 100px;
-    padding: 12px 37px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .profile__add-button {
     margin: 33px 0 0 0;
     width: 100%;
-    padding: 15px calc((100% - 20px) / 2);
     line-height: 0;
   }
+
+  /*.profile__add-button img {
+    width: 16px;
+  }*/
 }
