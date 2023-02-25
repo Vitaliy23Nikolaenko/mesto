@@ -1,4 +1,4 @@
-.place__button {
+.place__button-like {
   width: 22px;
   height: 19px;
   border: none;
@@ -11,6 +11,11 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.place__button-like:hover {
+  opacity: .6;
+  cursor: pointer;
 }
 
 
