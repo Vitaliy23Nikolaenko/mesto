@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./pages/index.css" />
+    <script> </script>
     <title>Mesto Russia</title>
   </head>
   <body class="page">
@@ -57,10 +58,18 @@
         </section>
       </main>
       <footer class="footer">
+        <scpirt> </scpirt>
         <p class="footer__copyright">&copy; 2023 Mesto Russia</p>
       </footer>
       <div class="popup popup_edit-profile">
         <div class="popup__container">
+          <button type="button" class="popup__close-button">
+            <img
+              src="./image/close-icon.svg"
+              alt="Крестик"
+              class="popup__button-icon"
+            />
+          </button>
           <h2 class="popup__title">Редактировать профиль</h2>
           <form name="profile" class="popup__form popup__edit-form">
             <input
@@ -77,6 +86,10 @@
               Сохранить
             </button>
           </form>
+        </div>
+      </div>
+      <div class="popup popup_add-place">
+        <div class="popup__container">
           <button type="button" class="popup__close-button">
             <img
               src="./image/close-icon.svg"
@@ -84,10 +97,6 @@
               class="popup__button-icon"
             />
           </button>
-        </div>
-      </div>
-      <div class="popup popup_add-place">
-        <div class="popup__container">
           <h2 class="popup__title">Новое место</h2>
           <form name="add-place" class="popup__form popup__add-form">
             <input
@@ -122,12 +131,11 @@
               class="popup__button-icon"
             />
           </button>
-          <img src="#" alt="Изображение" class="popup__enlarged-image">
+          <img src="#" alt="Изображение" class="popup__enlarged-image" />
           <p class="popup__description"></p>
         </div>
       </div>
     </div>
-    <script> </script>
     <script src="./scripts/index.js"></script>
   </body>
 </html>
