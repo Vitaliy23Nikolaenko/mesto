@@ -1,11 +1,7 @@
-.place__button_action {
+.place__button-like_action {
   background-image: url(../../../../image/place-like-active.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
-.place__button:hover {
-  opacity: 0.6;
+.place__button-like_action:hover {
   cursor: pointer;
 }

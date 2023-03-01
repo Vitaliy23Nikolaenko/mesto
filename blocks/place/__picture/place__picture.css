@@ -5,3 +5,7 @@
   padding: 0;
   object-fit: cover;
 }
+
+.place__picture:hover {
+  cursor: pointer;
+}
